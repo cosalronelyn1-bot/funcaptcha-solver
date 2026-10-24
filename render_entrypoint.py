@@ -1,14 +1,12 @@
 import os
 import flask
 
-
 def _noop_run(self, *args, **kwargs):
     return None
 
-
 flask.Flask.run = _noop_run
 
-import main  # noqa: E402
+import main
 
 app = main.app
 
