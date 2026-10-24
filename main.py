@@ -1472,4 +1472,4 @@ def createTask():
     except:
         return {"success":False, "err": "invalid request"}
 
-app.run(port="8003", host="0.0.0.0", debug=False)
+app.run(host="0.0.0.0", port=int(os.environ.get("PORT", "8003")), debug=False)
