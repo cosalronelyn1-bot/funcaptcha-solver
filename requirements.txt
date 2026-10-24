@@ -3,7 +3,6 @@ cryptography==42.0.8
 pycryptodome==3.20.0
 curl_cffi==0.7.0
 colorama==0.4.6
-javascript==1.0.0
 execjs==1.1.0
 colr==0.9.10
 numpy==1.26.4
