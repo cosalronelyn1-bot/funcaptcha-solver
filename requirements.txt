@@ -1,0 +1,9 @@
+Flask
+cryptography
+pycryptodome
+curl_cffi
+colorama
+javascript
+execjs
+colr
+numpy
